@@ -1,0 +1,175 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+
+header{
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-logo{
+  float:left;
+  width:124px;
+  margin:20px 0;
+}
+
+.login{
+  background-color:rgba(255,255,255,0.3);
+  float:right;
+  line-height:65px;
+  color:#fff;
+  padding:0 25px;
+}
+
+.top{
+  background:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  color:#fff;
+  padding:180px 0 100px 0;
+  text-align:center;
+}
+
+.top h1{
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:5px;
+  opacity:0.7;
+}
+
+.top p{
+  opacity:0.7;
+}
+
+.btn{
+  display:inline-block;
+  color:#fff;
+  padding:8px 24px;
+  border-radius:4px;
+  opacity:0.8;
+}
+
+.btns p{
+  margin:15px 0;
+}
+
+.new{
+  background-color:#239b76;
+  margin-top:30px;
+}
+
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+
+.center{
+  height:580px;
+  background-color:#f7f7f7;
+}
+
+h2{
+  color:#5f5d60;
+  font-weight:normal;
+  padding:80px 0 50px;
+  text-align:center;
+}
+
+.content{
+  width:25%;
+  float:left;
+  text-align:center;
+}
+
+.content-item {
+  position:relative;
+}
+
+.content-item p{
+  color:#fff;
+  position:absolute;
+  width:100%;
+  top:44%;
+}
+
+.text{
+  color:#b3aeb5;
+  font-size:13px;
+  width:80%;
+  margin:15px  auto 0;
+}
+
+.bottom{
+  text-align:center;
+}
+
+.bottom-head{
+  margin:80px 0 50px 0;
+  color:#5f5d60;
+}
+
+h3{
+  font-weight:normal;
+  font-size:24px;
+}
+
+.bottom p{
+  font-size:20px;
+}
+
+.bottom-btn{
+  padding:15px 40px;
+  background-color:#5dca88;
+  box-shadow:0 7px #1a7940;
+   margin-bottom:80px;
+   cursor:pointer;
+}
+
+.bottom-btn:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+footer{
+  padding:30px 0;
+  border-top:1px solid #eee;
+}
+
+.footer-logo{
+  width:124px;
+}
+
+footer p{
+  color:#b3aeb5;
+  font-size:12px;
+}
